@@ -1,0 +1,16 @@
+FANTASY REALMS - QUEST UPDATE 1.1.0
+
+INSTALLATION
+1. Close Minecraft and the Modrinth App instance.
+2. BACK UP YOUR WORLD and the existing config/ftbquests/quests folder.
+3. Download this branch as a ZIP from GitHub and extract it.
+4. Open the extracted Fantasy-Realms-Arcane-Journey-quest-update-1.1.0-download folder.
+5. Copy the config/ and kubejs/ folders from that folder into the ROOT of your existing Fantasy Realms instance folder.
+6. Allow folders to merge and replace the FTB Quests files when asked.
+7. Launch and test in a copy of your world or a new test world first.
+
+This is an UPDATE overlay, not a complete modpack. It assumes the original Fantasy Realms 1.0.0 instance is already installed with FTB Quests, FTB Library, FTB Teams, God Wand and KubeJS. It does not contain mod JARs.
+
+The overlay contains six FTB Quests chapters, Italian and English quest text, and a KubeJS script that removes the normal God Wand crafting recipe. The final quest is intended to grant the God Wand. Verify recipe removal and reward claiming in game before using it in your main world.
+
+Do not delete or replace your saves folder.
