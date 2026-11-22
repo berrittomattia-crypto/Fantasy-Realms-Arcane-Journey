@@ -1,0 +1,39 @@
+name: Build quest overrides
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pack/overrides/**'
+      - 'pack/quests-manifest.json'
+      - 'pack/README.md'
+      - 'scripts/validate_quests.py'
+      - '.github/workflows/build-quest-overrides.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate quest files
+        run: python scripts/validate_quests.py
+      - name: Package override bundle
+        run: |
+          cd pack
+          zip -qr ../Fantasy-Realms-Quest-Overrides.zip overrides quests-manifest.json README.md
+      - name: Upload bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fantasy-Realms-Quest-Overrides
+          path: Fantasy-Realms-Quest-Overrides.zip
+          if-no-files-found: error
+          retention-days: 90
