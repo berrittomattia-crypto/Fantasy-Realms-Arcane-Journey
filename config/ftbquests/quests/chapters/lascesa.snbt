@@ -1,0 +1,156 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "lascesa"
+ group: ""
+ icon: { id: "minecraft:nether_star" }
+ id: "F6525673AC49D795"
+ images: [ ]
+ order_index: 4
+ quest_links: [ ]
+ quests: [
+{
+ id: "CBE33F71A808807A"
+ dependencies: [
+  "4FDD2BAB5E78C345"
+ ]
+ x: -1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "FA06AC8A3C5259DB"
+ type: "item"
+ item: { count: 1, id: "minecraft:blaze_rod" }
+ count: 8L
+}
+{
+ id: "722ED62A61EA8D1A"
+ type: "kill"
+ entity: "minecraft:blaze"
+ value: 8L
+}
+ ]
+ rewards: [
+{
+ id: "1128493D65F69787"
+ type: "item"
+ item: { count: 1, id: "minecraft:blaze_powder" }
+ count: 8
+}
+{
+ id: "22B872A85CD982CA"
+ type: "xp"
+ xp: 200
+}
+ ]
+}
+{
+ id: "5CC7EBD22D9BA716"
+ dependencies: [
+  "CBE33F71A808807A"
+ ]
+ x: 0.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "CCBFC5DCEFCAD5FC"
+ type: "item"
+ item: { count: 1, id: "minecraft:echo_shard" }
+ count: 4L
+}
+ ]
+ rewards: [
+{
+ id: "E706C5CD48A8553A"
+ type: "item"
+ item: { count: 1, id: "minecraft:diamond" }
+ count: 2
+}
+{
+ id: "C867E41B5F828BB4"
+ type: "xp"
+ xp: 250
+}
+ ]
+}
+{
+ id: "D125B6AB6394B9D7"
+ dependencies: [
+  "5CC7EBD22D9BA716"
+ ]
+ x: 1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "3F156F0A3914F72B"
+ type: "item"
+ item: { count: 1, id: "minecraft:netherite_ingot" }
+}
+ ]
+ rewards: [
+{
+ id: "03D7A192E601EAF2"
+ type: "item"
+ item: { count: 1, id: "minecraft:netherite_scrap" }
+ count: 2
+}
+ ]
+}
+{
+ id: "D37C4BFFDD4FE5F8"
+ dependencies: [
+  "D125B6AB6394B9D7"
+ ]
+ x: -1.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "ECC22AD2A9FB1708"
+ type: "item"
+ item: { count: 1, id: "minecraft:nether_star" }
+}
+ ]
+ rewards: [
+{
+ id: "E00935DA38A9F196"
+ type: "item"
+ item: { count: 1, id: "minecraft:diamond" }
+ count: 4
+}
+{
+ id: "1A2E51282C4C0D34"
+ type: "xp"
+ xp: 400
+}
+ ]
+}
+{
+ id: "A855E307477C5D90"
+ dependencies: [
+  "D37C4BFFDD4FE5F8"
+ ]
+ x: 0.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "5A607215EB40FD8D"
+ type: "advancement"
+ advancement: "minecraft:end/kill_dragon"
+}
+ ]
+ rewards: [
+{
+ id: "113DCB85C33B50AF"
+ type: "item"
+ item: { count: 1, id: "minecraft:firework_rocket" }
+ count: 8
+}
+{
+ id: "5BCC278001800C1A"
+ type: "xp"
+ xp: 500
+}
+ ]
+}
+ ]
+}
