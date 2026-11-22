@@ -13,7 +13,7 @@
 - All mod interactions and world generation at runtime.
 - Exact FTB Quests task/reward behavior.
 - God Wand recipe and loot gating.
-- Dragon content for this exact loader/version.
+- Dragon content in a fresh world. A beta Ice and Fire 1.21.1 NeoForge port has been identified; the source export already contains Rampart 1.1.0, but the port itself is not yet in the pack.
 - Performance on the user's hardware.
 
 A release must not be labeled stable until these checks pass.
