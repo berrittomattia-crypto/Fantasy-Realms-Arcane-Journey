@@ -1,0 +1,151 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "le_arti_arcane"
+ group: ""
+ icon: { id: "minecraft:amethyst_shard" }
+ id: "530E60DC2E620260"
+ images: [ ]
+ order_index: 1
+ quest_links: [ ]
+ quests: [
+{
+ id: "C68045D61C322D90"
+ dependencies: [
+  "59A633D6B7C27FB2"
+ ]
+ x: -1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "0FF178351C5AC66A"
+ type: "item"
+ item: { count: 1, id: "minecraft:amethyst_shard" }
+ count: 8L
+}
+ ]
+ rewards: [
+{
+ id: "24B1A36EC22AADD9"
+ type: "item"
+ item: { count: 1, id: "minecraft:amethyst_shard" }
+ count: 4
+}
+{
+ id: "54A0A53935235AE1"
+ type: "xp"
+ xp: 90
+}
+ ]
+}
+{
+ id: "3B1C4C4C71A0BF4A"
+ dependencies: [
+  "C68045D61C322D90"
+ ]
+ x: 0.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "1E528698BC47BB69"
+ type: "checkmark"
+}
+ ]
+ rewards: [
+{
+ id: "CBC91743AA023128"
+ type: "item"
+ item: { count: 1, id: "minecraft:book" }
+ count: 2
+}
+ ]
+}
+{
+ id: "B8DA1BF155F3FAF1"
+ dependencies: [
+  "3B1C4C4C71A0BF4A"
+ ]
+ x: 1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "54E440C894538B1E"
+ type: "item"
+ item: { count: 1, id: "minecraft:book" }
+}
+{
+ id: "5F46D9CCA3DAC95C"
+ type: "checkmark"
+}
+ ]
+ rewards: [
+{
+ id: "48A690F7671367A9"
+ type: "item"
+ item: { count: 1, id: "minecraft:lapis_lazuli" }
+ count: 8
+}
+{
+ id: "343138DE307C2AA7"
+ type: "xp"
+ xp: 100
+}
+ ]
+}
+{
+ id: "ED074E08BB65B613"
+ dependencies: [
+  "B8DA1BF155F3FAF1"
+ ]
+ x: -1.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "05F69A7EE4CC34A3"
+ type: "checkmark"
+}
+ ]
+ rewards: [
+{
+ id: "519D71F5EBC3ED08"
+ type: "item"
+ item: { count: 1, id: "minecraft:gold_ingot" }
+ count: 4
+}
+ ]
+}
+{
+ id: "EB9B0B292D281146"
+ dependencies: [
+  "ED074E08BB65B613"
+ ]
+ x: 0.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "5E3A94817AF2A7F6"
+ type: "kill"
+ entity: "minecraft:skeleton"
+ value: 8L
+}
+{
+ id: "A9E7BD111EF77284"
+ type: "item"
+ item: { count: 1, id: "minecraft:shield" }
+}
+ ]
+ rewards: [
+{
+ id: "5500AD59039BC04E"
+ type: "item"
+ item: { count: 1, id: "minecraft:golden_apple" }
+}
+{
+ id: "18B5FA219675F16A"
+ type: "xp"
+ xp: 150
+}
+ ]
+}
+ ]
+}
