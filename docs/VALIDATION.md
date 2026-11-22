@@ -1,30 +1,42 @@
-# Validation status
+# 1.1.0 validation report
 
-## Confirmed from the uploaded source export and its logs
+## Passed checks
 
-- The source index targets Minecraft 1.21.1 and NeoForge 21.1.265.
-- The archive contains 48 indexed mod files plus 7 additional JARs in `overrides/mods` (55 JARs total).
-- The bundled runtime log shows NeoForge 21.1.265 loaded, FTB Quests and God Wand present, 6,981 recipes loaded, and 5,261 advancements loaded.
-- The log records a session inside the existing `TEST` world and a normal shutdown that saved the overworld, Nether, End and modded dimensions.
-- The source FTB Quests configuration contains one chapter (`Il Risveglio`) and one quest object with one item task: collect 16 `minecraft:oak_log`.
-- The source KubeJS startup and server scripts are example placeholders; they do not currently gate recipes or implement quest progression.
+- Modrinth archive was generated with Minecraft 1.21.1 and NeoForge 21.1.265 metadata.
+- The Modrinth index contains 48 indexed mod files.
+- Seven additional mod JARs are bundled under overrides/mods.
+- Archive integrity check passed; there are no duplicate ZIP paths.
+- No saves/, logs/, Xaero map cache, options.txt, player/session cache or old world data are included.
+- Six FTB Quests chapters parse with the local SNBT structural validator.
+- Quest counts: 31 quests, 39 tasks, 53 rewards.
+- IDs: 129 unique chapter/quest/task/reward IDs.
+- Dependency graph: all 36 dependency references target existing quest IDs.
+- Original first chapter, first quest and first oak-log task IDs are preserved.
+- Italian and English quest locale files contain all chapter and quest title entries.
+- Exactly one God Wand reward exists, on the final quest.
+- KubeJS recipe-removal script is present and uses the ServerEvents.recipes / event.remove({ output: ... }) API supported by the installed KubeJS 2101.7.2 family.
+- Structure configs parse; Moog remains 0.7, YUNG small Nether dungeons are enabled and the IDAS toggles are preserved.
 
-## Issues visible in the source log
+## Not tested in-game
 
-The session did reach the world, but the log is not error-free. Repeated resource reloads account for some duplicate entries.
+- Importing into the Modrinth App and first launch on the user's PC.
+- Fresh-world generation with all structure mods active.
+- Visual layout and quest progression in the FTB Quests GUI.
+- Actual completion/claiming of all automatic and manual tasks.
+- KubeJS removal of the God Wand recipe after server reload.
+- God Wand final reward claim and alternate acquisition audit in a running world.
+- Performance on the user's hardware.
 
-- **Missing Ice and Fire registry entries:** IDAS loot tables refer to many `iceandfire:` items, and Integrated API reports `iceandfire:dread_lich` as an invalid entity. The source export has Rampart but does not include the Ice and Fire mod itself.
-- **Missing optional biome references:** IDAS tags reference `byg:redwood_thicket` and Biomes O' Plenty biomes, but those biome mods are not in the source mod list.
-- **GeckoLib animation parse errors:** `attack_single`, `supernova` and `swim_charge` contain expressions that fail to parse because of `nan` values.
-- **Other data errors:** the log also contains missing advancement references, an Integrated API spawner parse error tied to the missing Ice and Fire entity, and invalid `minecraft:air` item loads.
+## Known issues inherited from the 1.0.0 source profile
 
-## Still required before a stable release
+The source log records a successful entry into the existing TEST world, but also records:
+- IDAS loot/spawner references to Ice and Fire items/entities not registered in the source profile.
+- IDAS references to optional BYG and Biomes O' Plenty biome IDs not present in the source list.
+- GeckoLib animation parsing errors involving NaN values.
+- Additional missing advancement and invalid-air item references.
 
-- Test the candidate Ice and Fire port in a separate copy, then check whether it resolves the IDAS loot-table and spawner errors without creating new conflicts.
-- Decide whether optional BYG/Biomes O' Plenty integration tags should be removed/disabled or whether those biome mods are actually wanted.
-- Trace and repair the GeckoLib animation and invalid item errors.
-- Create and verify all six FTB Quests chapters, valid task/reward IDs, quest dependencies and localization.
-- Verify that God Wand acquisition is locked behind the final quest. The source config's cooldown/damage/terrain settings are not, by themselves, proof of quest gating.
-- Test new-world generation, structures, dimensions, boss progression, performance and a clean installation.
+These are documented, not represented as fixed by this package.
 
-A successful entry into the existing test world is useful evidence, but it is not equivalent to a clean compatibility pass or a stable release.
+## Dragons
+
+A beta Ice and Fire NeoForge 1.21.1 port was identified as a candidate; it is not included because it could not be validated here. Rampart is bundled, but Rampart alone does not add dragons.
