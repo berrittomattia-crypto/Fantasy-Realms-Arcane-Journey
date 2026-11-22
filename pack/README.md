@@ -1,7 +1,7 @@
-# Pack staging area
+# Pack source
 
-This directory is reserved for curated, distributable overrides. At present it contains documentation only; the FTB Quests SNBT and KubeJS gate files are not yet staged.
+The 1.1.0 build contains the six-chapter FTB Quests campaign, God Wand crafting gate, and curated gameplay configuration. The clean Modrinth package is shared separately with the build response.
 
-The original export contains a local TEST world, Xaero map data, launcher/session caches and other personal files. Those must never be copied into the public release.
+Structure settings are detailed in docs/STRUCTURE_GENERATION.md. The old test world, player data, Xaero cache, launcher settings and logs are excluded.
 
-A complete standalone .mrpack and a tested override ZIP are not yet available.
+The release is statically validated but not launched in a new Minecraft world.
