@@ -23,7 +23,7 @@ A guided fantasy-adventure modpack for **Minecraft 1.21.1** on **NeoForge 21.1.2
 
 ## Current base pack
 
-The source export inspected for this project contains 48 Modrinth-indexed mod files and targets:
+The source export inspected for this project contains 48 Modrinth-indexed mod files plus 7 additional mod jars in `overrides/mods` (55 total) and targets:
 - Minecraft: 1.21.1
 - NeoForge: 21.1.265
 
