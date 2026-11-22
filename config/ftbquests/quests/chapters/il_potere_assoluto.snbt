@@ -1,0 +1,123 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "il_potere_assoluto"
+ group: ""
+ icon: { id: "godwand:god_wand" }
+ id: "C53D68C4F73EE231"
+ images: [ ]
+ order_index: 5
+ quest_links: [ ]
+ quests: [
+{
+ id: "AC7076EFFE62DE87"
+ dependencies: [
+  "EB9B0B292D281146"
+  "4FDD2BAB5E78C345"
+  "A855E307477C5D90"
+ ]
+ x: -1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "9E684E967DA8E0EC"
+ type: "checkmark"
+}
+ ]
+ rewards: [
+{
+ id: "9CB84F2BD9F063EE"
+ type: "item"
+ item: { count: 1, id: "minecraft:ender_eye" }
+ count: 4
+}
+{
+ id: "A49461095074F3F2"
+ type: "xp"
+ xp: 500
+}
+ ]
+}
+{
+ id: "D958EA74BE2E91F6"
+ dependencies: [
+  "AC7076EFFE62DE87"
+ ]
+ x: 0.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "1015FCC616D9A86E"
+ type: "item"
+ item: { count: 1, id: "minecraft:diamond" }
+ count: 8L
+}
+ ]
+ rewards: [
+{
+ id: "4D40C63ED9D443E5"
+ type: "item"
+ item: { count: 1, id: "minecraft:totem_of_undying" }
+}
+ ]
+}
+{
+ id: "DFAB0BFA009E14CD"
+ dependencies: [
+  "D958EA74BE2E91F6"
+ ]
+ x: 1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "79812B3B011A2CA4"
+ type: "checkmark"
+}
+{
+ id: "FE814E303529FFC0"
+ type: "item"
+ item: { count: 1, id: "minecraft:dragon_egg" }
+}
+ ]
+ rewards: [
+{
+ id: "55122042355989D8"
+ type: "item"
+ item: { count: 1, id: "minecraft:end_crystal" }
+ count: 2
+}
+{
+ id: "F829C4A26C6F1D4A"
+ type: "xp"
+ xp: 1000
+}
+ ]
+}
+{
+ id: "35B7EC7FE35E0C0D"
+ dependencies: [
+  "DFAB0BFA009E14CD"
+ ]
+ x: -1.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "5A3993225B39CEC1"
+ type: "checkmark"
+}
+ ]
+ rewards: [
+{
+ id: "8B649F6BBA7055F7"
+ type: "item"
+ item: { count: 1, id: "godwand:god_wand" }
+}
+{
+ id: "B0EB3DDC2291E74D"
+ type: "xp"
+ xp: 2500
+}
+ ]
+}
+ ]
+}
