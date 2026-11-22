@@ -1,0 +1,111 @@
+{
+ chapter.729446B24249BFB0.title: "Il Risveglio"
+ chapter.530E60DC2E620260.title: "Le arti arcane"
+ chapter.CA8010BB55E5C62D.title: "Il mondo dimenticato"
+ chapter.312A6BACB71DB83F.title: "Le creature leggendarie"
+ chapter.F6525673AC49D795.title: "L'ascesa"
+ chapter.C53D68C4F73EE231.title: "Il potere assoluto"
+ quest.1C6141CF87219243.title: "La prima legna"
+ quest.1C6141CF87219243.quest_subtitle: "La prima legna"
+ quest.1C6141CF87219243.quest_desc: ["Raccogli 16 tronchi di quercia. È il primo passo per costruire un rifugio e affrontare il mondo."]
+ quest.DCCCDE978B7EEF4A.title: "Un rifugio per la notte"
+ quest.DCCCDE978B7EEF4A.quest_subtitle: "Un rifugio per la notte"
+ quest.DCCCDE978B7EEF4A.quest_desc: ["Prepara un luogo sicuro prima che cali il buio. Costruisci un riparo e illumina l’area."]
+ task.F0AAF12324DF2273.title: "Ho costruito e illuminato un rifugio sicuro"
+ quest.05B3DC06E233F82F.title: "Pietra e ferro"
+ quest.05B3DC06E233F82F.quest_subtitle: "Pietra e ferro"
+ quest.05B3DC06E233F82F.quest_desc: ["Migliora gli strumenti: ottieni il progresso vanilla “Acquired Hardware” creando il primo lingotto di ferro."]
+ quest.D02C7EFCA78B0992.title: "Un mondo pericoloso"
+ quest.D02C7EFCA78B0992.quest_subtitle: "Un mondo pericoloso"
+ quest.D02C7EFCA78B0992.quest_desc: ["Le prime notti non sono sicure. Difenditi e sconfiggi cinque zombie."]
+ quest.7296660BB70467C8.title: "Tracce tra le case"
+ quest.7296660BB70467C8.quest_subtitle: "Tracce tra le case"
+ quest.7296660BB70467C8.quest_desc: ["Segui le tracce della civiltà: trova un villaggio e porta con te provviste sufficienti."]
+ quest.59A633D6B7C27FB2.title: "Una bussola per l’ignoto"
+ quest.59A633D6B7C27FB2.quest_subtitle: "Una bussola per l’ignoto"
+ quest.59A633D6B7C27FB2.quest_desc: ["Prepara una bussola e del cibo. Le grandi rovine non si trovano tutte vicino a casa."]
+ quest.C68045D61C322D90.title: "Frammenti d’energia"
+ quest.C68045D61C322D90.quest_subtitle: "Frammenti d’energia"
+ quest.C68045D61C322D90.quest_desc: ["L’ametista reagisce alle energie del mondo. Raccogli otto frammenti per iniziare i tuoi studi."]
+ quest.3B1C4C4C71A0BF4A.title: "Il tomo dimenticato"
+ quest.3B1C4C4C71A0BF4A.quest_subtitle: "Il tomo dimenticato"
+ quest.3B1C4C4C71A0BF4A.quest_desc: ["Trova il modo di iniziare gli studi di Ars Nouveau. Leggi il tomo e familiarizza con le prime forme di magia."]
+ task.1E528698BC47BB69.title: "Ho ottenuto e consultato il libro introduttivo di Ars Nouveau"
+ quest.B8DA1BF155F3FAF1.title: "Prime formule"
+ quest.B8DA1BF155F3FAF1.quest_subtitle: "Prime formule"
+ quest.B8DA1BF155F3FAF1.quest_desc: ["Crea il tuo primo equipaggiamento arcano e sperimenta una formula. Non avere fretta di cercare gli incantesimi più potenti."]
+ task.5F46D9CCA3DAC95C.title: "Ho creato e provato una prima formula di Ars Nouveau"
+ quest.ED074E08BB65B613.title: "Un’altra via"
+ quest.ED074E08BB65B613.quest_subtitle: "Un’altra via"
+ quest.ED074E08BB65B613.quest_desc: ["Esiste più di una tradizione arcana. Scopri Iron’s Spells ’n Spellbooks e apprendi il funzionamento delle pergamene."]
+ task.05F69A7EE4CC34A3.title: "Ho consultato il libro di Iron’s Spells e provato una pergamena"
+ quest.EB9B0B292D281146.title: "Il prezzo del potere"
+ quest.EB9B0B292D281146.quest_subtitle: "Il prezzo del potere"
+ quest.EB9B0B292D281146.quest_desc: ["La magia non sostituisce la preparazione. Sconfiggi otto scheletri e crea uno scudo per proteggerti."]
+ quest.17006119C2843AB7.title: "La porta rossa"
+ quest.17006119C2843AB7.quest_subtitle: "La porta rossa"
+ quest.17006119C2843AB7.quest_desc: ["I frammenti del mondo indicano una soglia infernale. Costruisci un portale e attraversalo."]
+ quest.549C24C76170831C.title: "Oltre il velo"
+ quest.549C24C76170831C.quest_subtitle: "Oltre il velo"
+ quest.549C24C76170831C.quest_desc: ["Esplora il Nether e torna vivo. Le antiche rovine oltre il portale richiedono attrezzatura e prudenza."]
+ quest.EC8936761EAF0F50.title: "La città silenziosa"
+ quest.EC8936761EAF0F50.quest_subtitle: "La città silenziosa"
+ quest.EC8936761EAF0F50.quest_desc: ["Indizio: cerca le profondità più antiche del mondo, dove il silenzio è più pericoloso dei mostri."]
+ quest.8979A4E0ADE6C60E.title: "La roccaforte"
+ quest.8979A4E0ADE6C60E.quest_subtitle: "La roccaforte"
+ quest.8979A4E0ADE6C60E.quest_desc: ["Indizio: gli occhi dell’Ender conducono a una fortezza sepolta. Preparati prima di seguirli."]
+ quest.18FB7937412A23FB.title: "Il cielo dimenticato"
+ quest.18FB7937412A23FB.quest_subtitle: "Il cielo dimenticato"
+ quest.18FB7937412A23FB.quest_desc: ["Indizio: una dimensione sospesa sopra le nuvole custodisce un’altra parte della storia. Raggiungi l’Aether."]
+ quest.A4AF4DC6FEBE84DD.title: "L’eco profonda"
+ quest.A4AF4DC6FEBE84DD.quest_subtitle: "L’eco profonda"
+ quest.A4AF4DC6FEBE84DD.quest_desc: ["Indizio: il potere sculk nasconde una via verso un mondo oltre il buio. Entra nell’Otherside."]
+ quest.44FAFB0FB9D571FA.title: "Il cacciatore"
+ quest.44FAFB0FB9D571FA.quest_subtitle: "Il cacciatore"
+ quest.44FAFB0FB9D571FA.quest_desc: ["Hai seguito almeno una delle piste del mondo dimenticato. Ora dimostra di saper affrontare creature pericolose: sconfiggi dieci Enderman."]
+ quest.EBF2E238ABC5202D.title: "Armatura per le rovine"
+ quest.EBF2E238ABC5202D.quest_subtitle: "Armatura per le rovine"
+ quest.EBF2E238ABC5202D.quest_desc: ["Prepara una corazza di diamante prima di affrontare i guardiani delle rovine."]
+ quest.6600C25426EB4651.title: "Il guardiano d’ossidiana"
+ quest.6600C25426EB4651.quest_subtitle: "Il guardiano d’ossidiana"
+ quest.6600C25426EB4651.quest_desc: ["Prova di coraggio: affronta e sconfiggi un boss di Cataclysm adatto a questa fase della progressione. Conferma solo dopo la vittoria."]
+ task.DCBBEC6D84B3461C.title: "Ho sconfitto un boss di Cataclysm di livello intermedio"
+ quest.AC7C2579234166D2.title: "Il custode dei sigilli"
+ quest.AC7C2579234166D2.quest_subtitle: "Il custode dei sigilli"
+ quest.AC7C2579234166D2.quest_desc: ["Un’altra creatura antica custodisce un segreto. Sconfiggi un boss di Mowzie’s Mobs e conferma la prova."]
+ task.0BDF703EA261242C.title: "Ho sconfitto un boss di Mowzie’s Mobs"
+ quest.4FDD2BAB5E78C345.title: "La bestia del labirinto"
+ quest.4FDD2BAB5E78C345.quest_subtitle: "La bestia del labirinto"
+ quest.4FDD2BAB5E78C345.quest_desc: ["Indizio raro: cerca il Portale Antico o il Nexus tra le grandi rovine del mondo dimenticato. Usa la bussola dell’esploratore, prepara rifornimenti e controlla biomi diversi. Completa una spedizione in una di queste strutture o in un dungeon maggiore; conferma solo quando torni vivo."]
+ task.D1D559720BCAA6F5.title: "Ho completato una grande struttura o dungeon e sono tornato vivo"
+ quest.CBE33F71A808807A.title: "Fiamme del Nether"
+ quest.CBE33F71A808807A.quest_subtitle: "Fiamme del Nether"
+ quest.CBE33F71A808807A.quest_desc: ["Il fuoco del Nether alimenta le prove successive. Raccogli otto verghe di Blaze e affronta i loro guardiani."]
+ quest.5CC7EBD22D9BA716.title: "Frammenti dell’eco"
+ quest.5CC7EBD22D9BA716.quest_subtitle: "Frammenti dell’eco"
+ quest.5CC7EBD22D9BA716.quest_desc: ["Recupera quattro frammenti dell’eco dalle rovine più profonde. Ti serviranno per la reliquia finale."]
+ quest.D125B6AB6394B9D7.title: "Il cuore della forgia"
+ quest.D125B6AB6394B9D7.quest_subtitle: "Il cuore della forgia"
+ quest.D125B6AB6394B9D7.quest_desc: ["Rafforza il tuo equipaggiamento con la netherite. Non affrontare l’ultima prova senza una protezione adeguata."]
+ quest.D37C4BFFDD4FE5F8.title: "Una stella caduta"
+ quest.D37C4BFFDD4FE5F8.quest_subtitle: "Una stella caduta"
+ quest.D37C4BFFDD4FE5F8.quest_desc: ["Il Wither custodisce una stella del Nether. Preparati con cura e sconfiggilo."]
+ quest.A855E307477C5D90.title: "Il drago dell’End"
+ quest.A855E307477C5D90.quest_subtitle: "Il drago dell’End"
+ quest.A855E307477C5D90.quest_desc: ["L’ultima frontiera del mondo conosciuto è l’End. Sconfiggi il Drago e ritorna con la prova della vittoria."]
+ quest.AC7076EFFE62DE87.title: "Le sei prove"
+ quest.AC7076EFFE62DE87.quest_subtitle: "Le sei prove"
+ quest.AC7076EFFE62DE87.quest_desc: ["Hai superato le grandi prove della magia e delle creature leggendarie. Riordina le reliquie e preparati al cuore del mondo."]
+ task.9E684E967DA8E0EC.title: "Ho completato i traguardi delle arti arcane, delle creature leggendarie e dell’ascesa"
+ quest.D958EA74BE2E91F6.title: "Le reliquie del passato"
+ quest.D958EA74BE2E91F6.quest_subtitle: "Le reliquie del passato"
+ quest.D958EA74BE2E91F6.quest_desc: ["Raccogli otto diamanti e custodisci la stella del Nether: sono gli ultimi componenti per aprire la soglia finale."]
+ quest.DFAB0BFA009E14CD.title: "Il cuore del mondo"
+ quest.DFAB0BFA009E14CD.quest_subtitle: "Il cuore del mondo"
+ quest.DFAB0BFA009E14CD.quest_desc: ["Completa l’ultima grande spedizione, affronta il guardiano finale del tuo viaggio e recupera l’uovo del Drago dell’End."]
+ task.79812B3B011A2CA4.title: "Ho completato la spedizione finale e sconfitto il suo guardiano"
+ quest.35B7EC7FE35E0C0D.title: "Il potere assoluto"
+ quest.35B7EC7FE35E0C0D.quest_subtitle: "Il potere assoluto"
+ quest.35B7EC7FE35E0C0D.quest_desc: ["Hai raggiunto il termine del viaggio. Richiedi il potere assoluto: la God Wand è la ricompensa finale. Usala con responsabilità."]
+ task.5A3993225B39CEC1.title: "Ho completato tutte le prove e sono pronto a ricevere la God Wand"
+}
