@@ -1,0 +1,176 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "il_mondo_dimenticato"
+ group: ""
+ icon: { id: "minecraft:ancient_debris" }
+ id: "CA8010BB55E5C62D"
+ images: [ ]
+ order_index: 2
+ quest_links: [ ]
+ quests: [
+{
+ id: "17006119C2843AB7"
+ dependencies: [
+  "EB9B0B292D281146"
+ ]
+ x: -1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "8A1AC660B7E301A8"
+ type: "advancement"
+ advancement: "minecraft:story/enter_the_nether"
+}
+ ]
+ rewards: [
+{
+ id: "03EBD4BAF135BA47"
+ type: "item"
+ item: { count: 1, id: "minecraft:obsidian" }
+ count: 4
+}
+{
+ id: "3188EF36B07A115D"
+ type: "xp"
+ xp: 100
+}
+ ]
+}
+{
+ id: "549C24C76170831C"
+ dependencies: [
+  "17006119C2843AB7"
+ ]
+ x: 0.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "DAE635B3AF58AAEF"
+ type: "dimension"
+ dimension: "minecraft:the_nether"
+}
+ ]
+ rewards: [
+{
+ id: "8FD99447870F28A6"
+ type: "item"
+ item: { count: 1, id: "minecraft:quartz" }
+ count: 8
+}
+{
+ id: "CA65293E704E6538"
+ type: "xp"
+ xp: 100
+}
+ ]
+}
+{
+ id: "EC8936761EAF0F50"
+ dependencies: [
+  "549C24C76170831C"
+ ]
+ x: -2.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "3681F74532B3904E"
+ type: "structure"
+ structure: "minecraft:ancient_city"
+}
+ ]
+ rewards: [
+{
+ id: "473554CC2E5C57E2"
+ type: "item"
+ item: { count: 1, id: "minecraft:diamond" }
+ count: 2
+}
+{
+ id: "865F37B2CFC97092"
+ type: "xp"
+ xp: 150
+}
+ ]
+}
+{
+ id: "8979A4E0ADE6C60E"
+ dependencies: [
+  "549C24C76170831C"
+ ]
+ x: -0.7d
+ y: 1.0d
+ tasks: [
+{
+ id: "D59FE5AA0F0B92B0"
+ type: "structure"
+ structure: "minecraft:stronghold"
+}
+ ]
+ rewards: [
+{
+ id: "18E2E1562038FBD7"
+ type: "item"
+ item: { count: 1, id: "minecraft:ender_pearl" }
+ count: 4
+}
+{
+ id: "514DE6A8CFC93ABC"
+ type: "xp"
+ xp: 150
+}
+ ]
+}
+{
+ id: "18FB7937412A23FB"
+ dependencies: [
+  "549C24C76170831C"
+ ]
+ x: 0.7d
+ y: 1.0d
+ tasks: [
+{
+ id: "ACEFB10410BB3D57"
+ type: "dimension"
+ dimension: "aether:the_aether"
+}
+ ]
+ rewards: [
+{
+ id: "ACE008038E004C04"
+ type: "item"
+ item: { count: 1, id: "minecraft:diamond" }
+ count: 2
+}
+{
+ id: "3B1ECC423ED0DFCC"
+ type: "xp"
+ xp: 150
+}
+ ]
+}
+{
+ id: "A4AF4DC6FEBE84DD"
+ dependencies: [
+  "549C24C76170831C"
+ ]
+ x: 2.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "1B5E521D0552E992"
+ type: "dimension"
+ dimension: "deeperdarker:otherside"
+}
+ ]
+ rewards: [
+{
+ id: "57D056B318E3B7CF"
+ type: "item"
+ item: { count: 1, id: "minecraft:diamond" }
+ count: 2
+}
+ ]
+}
+ ]
+}
