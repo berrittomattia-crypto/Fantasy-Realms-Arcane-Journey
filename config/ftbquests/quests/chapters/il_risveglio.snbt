@@ -1,0 +1,191 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "il_risveglio"
+ group: ""
+ icon: { id: "minecraft:book" }
+ id: "729446B24249BFB0"
+ images: [ ]
+ order_index: 0
+ quest_links: [ ]
+ quests: [
+{
+ id: "1C6141CF87219243"
+ x: -1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "6DC4D5B357953164"
+ type: "item"
+ item: { count: 1, id: "minecraft:oak_log" }
+ count: 16L
+}
+ ]
+ rewards: [
+{
+ id: "DADFFCABFF6BDDD9"
+ type: "item"
+ item: { count: 1, id: "minecraft:apple" }
+ count: 4
+}
+ ]
+}
+{
+ id: "DCCCDE978B7EEF4A"
+ dependencies: [
+  "1C6141CF87219243"
+ ]
+ x: 0.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "F0AAF12324DF2273"
+ type: "checkmark"
+}
+{
+ id: "F212EAC487C7B42C"
+ type: "item"
+ item: { count: 1, id: "minecraft:torch" }
+ count: 8L
+}
+ ]
+ rewards: [
+{
+ id: "04BB607E0207892A"
+ type: "item"
+ item: { count: 1, id: "minecraft:torch" }
+ count: 16
+}
+{
+ id: "E4A549AC30950174"
+ type: "xp"
+ xp: 40
+}
+ ]
+}
+{
+ id: "05B3DC06E233F82F"
+ dependencies: [
+  "DCCCDE978B7EEF4A"
+ ]
+ x: 1.0d
+ y: 0.0d
+ tasks: [
+{
+ id: "0BCD1B20F0AF2D83"
+ type: "advancement"
+ advancement: "minecraft:story/iron_tools"
+}
+ ]
+ rewards: [
+{
+ id: "9C2B763108D9F8AE"
+ type: "item"
+ item: { count: 1, id: "minecraft:iron_ingot" }
+ count: 4
+}
+{
+ id: "BE76C765FB87A229"
+ type: "xp"
+ xp: 80
+}
+ ]
+}
+{
+ id: "D02C7EFCA78B0992"
+ dependencies: [
+  "05B3DC06E233F82F"
+ ]
+ x: -1.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "ED2DCABA3B67D66F"
+ type: "kill"
+ entity: "minecraft:zombie"
+ value: 5L
+}
+ ]
+ rewards: [
+{
+ id: "CEDB1B7CD1D3D02E"
+ type: "item"
+ item: { count: 1, id: "minecraft:arrow" }
+ count: 16
+}
+{
+ id: "85CB308E1A9FE780"
+ type: "xp"
+ xp: 50
+}
+ ]
+}
+{
+ id: "7296660BB70467C8"
+ dependencies: [
+  "D02C7EFCA78B0992"
+ ]
+ x: 0.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "1D68660C87B3D32E"
+ type: "structure"
+ structure: "#minecraft:villages"
+}
+{
+ id: "6C42DFFC5DDBB16F"
+ type: "item"
+ item: { count: 1, id: "minecraft:bread" }
+ count: 4L
+}
+ ]
+ rewards: [
+{
+ id: "4B4E28F8E5C61D90"
+ type: "item"
+ item: { count: 1, id: "minecraft:map" }
+}
+{
+ id: "C70AE508BBEB9799"
+ type: "item"
+ item: { count: 1, id: "minecraft:bread" }
+ count: 8
+}
+ ]
+}
+{
+ id: "59A633D6B7C27FB2"
+ dependencies: [
+  "7296660BB70467C8"
+ ]
+ x: 1.0d
+ y: 1.0d
+ tasks: [
+{
+ id: "7492B5A580230F3E"
+ type: "item"
+ item: { count: 1, id: "minecraft:compass" }
+}
+{
+ id: "2CEA1BE72EEAA0E2"
+ type: "item"
+ item: { count: 1, id: "minecraft:cooked_beef" }
+ count: 8L
+}
+ ]
+ rewards: [
+{
+ id: "8ECF0DD0B9A24457"
+ type: "item"
+ item: { count: 1, id: "minecraft:shield" }
+}
+{
+ id: "E4F0342B90941B09"
+ type: "xp"
+ xp: 60
+}
+ ]
+}
+ ]
+}
