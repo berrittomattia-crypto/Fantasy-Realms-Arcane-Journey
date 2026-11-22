@@ -2,39 +2,35 @@
 
 A guided fantasy-adventure modpack for **Minecraft 1.21.1** on **NeoForge 21.1.265**.
 
-> Development status: documentation and progression design are being prepared. The repository is not yet a complete, launch-tested modpack release.
+> Current status: source audit and design documentation are in the repository. The curated playable quest/configuration overlay and a tested standalone release are **not yet complete**.
 
 ## Design goals
 
-- Exploration-first fantasy adventure with dangerous dungeons, rare structures and meaningful discoveries.
+- Exploration-first fantasy adventure with rare structures, dungeons and meaningful discoveries.
 - Magic learned progressively through exploration and quest milestones.
 - Boss encounters and legendary rewards reserved for later progression.
-- God Wand is an endgame reward, never an early-game item.
-- A guided but non-linear story: the player uncovers the world's forgotten history and its growing threat.
+- God Wand as an endgame reward, not an early-game item.
+- A guided but non-linear story revealed through clues, ruins and major encounters.
 
 ## Story chapters
 
-1. **Il Risveglio** — survive, gather supplies and uncover the first signs of an older world.
-2. **Le arti arcane** — find the first sources of magic and learn how to use them responsibly.
-3. **Il mondo dimenticato** — explore ancient structures, hidden dimensions and lost records.
-4. **Le creature leggendarie** — prepare for powerful creatures and major boss encounters.
-5. **L'ascesa** — master advanced equipment, magic and the world's greatest challenges.
-6. **Il potere assoluto** — the final trials; only here can the God Wand become available.
+1. **Il Risveglio**
+2. **Le arti arcane**
+3. **Il mondo dimenticato**
+4. **Le creature leggendarie**
+5. **L'ascesa**
+6. **Il potere assoluto**
 
-## Current base pack
+These are the agreed chapter concepts; the complete six-chapter FTB Quests files have not yet been published.
 
-The source export inspected for this project contains 48 Modrinth-indexed mod files plus 7 additional mod jars in `overrides/mods` (55 total) and targets:
-- Minecraft: 1.21.1
-- NeoForge: 21.1.265
+## Source pack
 
-See `docs/MODLIST.md` for the exact indexed mod list and `docs/PROGRESSION.md` for the quest design.
+The inspected source export contains 48 Modrinth-indexed mod files plus 7 additional JARs in `overrides/mods` (55 total), targeting Minecraft 1.21.1 and NeoForge 21.1.265.
 
-## Installation and release status
+See `docs/MODLIST.md`, `docs/DEPENDENCIES.md`, `docs/SOURCE_EXPORT_AUDIT.md`, `docs/PROGRESSION.md` and `docs/FTB_QUESTS.md`.
 
-The uploaded source export does have a recorded successful session in the existing `TEST` world, but its log also contains repeated content/registry and animation errors. A clean fresh-world compatibility pass has **not** been completed, and a tested `.mrpack` release has **not** been published from this repository. The local `TEST` world and session-specific files are deliberately excluded from this public repository.
+## Release status
 
-## Repository layout
+The uploaded export records a successful session entering the existing `TEST` world, but its log contains registry, missing-content and animation errors. A clean fresh-world compatibility pass has not been completed.
 
-- `docs/` — mod inventory, progression design and validation notes.
-- `pack/` — clean, distributable overrides and pack metadata will be staged here.
-- `scripts/` — repeatable validation/build helpers will be added here.
+No final `.mrpack` or installable quest overlay is published yet. The local test world, Xaero map cache, launcher/session caches and personal files are deliberately excluded from this public repository.
