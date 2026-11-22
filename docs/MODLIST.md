@@ -55,6 +55,23 @@ This inventory is transcribed from the Modrinth index inside the uploaded `.mrpa
 | 47 | Better Advanced Tooltips | `better-advanced-tooltips-2101.1.0-build.5.jar` | [Modrinth](https://modrinth.com/mod/better-advanced-tooltips) |
 | 48 | oωo (owo) Lib | `owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar` | [Modrinth](https://modrinth.com/mod/owo-lib) |
 
+
+## Additional jars packaged under overrides/mods
+
+These seven files are included by the archive's overrides folder, so they are **not** counted in the 48 entries above. The project pages link to the upstream projects; the filenames and versions below are copied directly from the archive.
+
+| # | Mod / library | Exact jar filename | Project page |
+|---:|---|---|---|
+| 49 | Ars 'n Spells | `ars_n_spells-3.4.2.jar` | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ars-n-spells) |
+| 50 | FTB Library | `ftb-library-neoforge-2101.1.40.jar` | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) |
+| 51 | FTB Quests | `ftb-quests-neoforge-2101.1.39.jar` | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) |
+| 52 | FTB Teams | `ftb-teams-neoforge-2101.1.12.jar` | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) |
+| 53 | God Wand | `godwand-neoforge-1.6.2.jar` | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/god-wand) |
+| 54 | Rampart | `Rampart-neoforge-1.1.0+1.21.1.jar` | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/rampart) |
+| 55 | Resonant Arcana | `resonant-arcana-1.2.2-neoforge-1.21.1.jar` | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/resonant-arcana) |
+
+**Total present in the export: 55 mod jars** (48 indexed in `modrinth.index.json` + 7 copied from `overrides/mods`).
+
 ## Compatibility notes
 
 - The pack index declares Minecraft 1.21.1 and NeoForge 21.1.265.
