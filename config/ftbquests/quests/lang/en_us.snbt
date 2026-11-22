@@ -1,0 +1,111 @@
+{
+ chapter.729446B24249BFB0.title: "The Awakening"
+ chapter.530E60DC2E620260.title: "The Arcane Arts"
+ chapter.CA8010BB55E5C62D.title: "The Forgotten World"
+ chapter.312A6BACB71DB83F.title: "Legendary Creatures"
+ chapter.F6525673AC49D795.title: "The Ascension"
+ chapter.C53D68C4F73EE231.title: "Absolute Power"
+ quest.1C6141CF87219243.title: "First Timber"
+ quest.1C6141CF87219243.quest_subtitle: "First Timber"
+ quest.1C6141CF87219243.quest_desc: ["Gather 16 oak logs. This is the first step toward building shelter and facing the world."]
+ quest.DCCCDE978B7EEF4A.title: "Shelter for the Night"
+ quest.DCCCDE978B7EEF4A.quest_subtitle: "Shelter for the Night"
+ quest.DCCCDE978B7EEF4A.quest_desc: ["Prepare a safe place before night falls. Build a shelter and light the area."]
+ task.F0AAF12324DF2273.title: "I built and lit a safe shelter"
+ quest.05B3DC06E233F82F.title: "Stone and Iron"
+ quest.05B3DC06E233F82F.quest_subtitle: "Stone and Iron"
+ quest.05B3DC06E233F82F.quest_desc: ["Improve your tools: earn the vanilla “Acquire Hardware” milestone by obtaining your first iron ingot."]
+ quest.D02C7EFCA78B0992.title: "A Dangerous World"
+ quest.D02C7EFCA78B0992.quest_subtitle: "A Dangerous World"
+ quest.D02C7EFCA78B0992.quest_desc: ["The first nights are not safe. Defend yourself and defeat five zombies."]
+ quest.7296660BB70467C8.title: "Signs Among the Houses"
+ quest.7296660BB70467C8.quest_subtitle: "Signs Among the Houses"
+ quest.7296660BB70467C8.quest_desc: ["Follow the traces of civilization: find a village and bring enough supplies."]
+ quest.59A633D6B7C27FB2.title: "A Compass for the Unknown"
+ quest.59A633D6B7C27FB2.quest_subtitle: "A Compass for the Unknown"
+ quest.59A633D6B7C27FB2.quest_desc: ["Prepare a compass and food. Great ruins are not always close to home."]
+ quest.C68045D61C322D90.title: "Fragments of Energy"
+ quest.C68045D61C322D90.quest_subtitle: "Fragments of Energy"
+ quest.C68045D61C322D90.quest_desc: ["Amethyst reacts to the world’s energies. Gather eight shards to begin your studies."]
+ quest.3B1C4C4C71A0BF4A.title: "The Forgotten Tome"
+ quest.3B1C4C4C71A0BF4A.quest_subtitle: "The Forgotten Tome"
+ quest.3B1C4C4C71A0BF4A.quest_desc: ["Find a way to begin studying Ars Nouveau. Read its guidebook and learn the first principles of magic."]
+ task.1E528698BC47BB69.title: "I obtained and read the Ars Nouveau guidebook"
+ quest.B8DA1BF155F3FAF1.title: "First Formulas"
+ quest.B8DA1BF155F3FAF1.quest_subtitle: "First Formulas"
+ quest.B8DA1BF155F3FAF1.quest_desc: ["Create your first arcane equipment and experiment with a spell. Do not rush toward the strongest magic."]
+ task.5F46D9CCA3DAC95C.title: "I crafted and tested my first Ars Nouveau spell"
+ quest.ED074E08BB65B613.title: "Another Path"
+ quest.ED074E08BB65B613.quest_subtitle: "Another Path"
+ quest.ED074E08BB65B613.quest_desc: ["There is more than one arcane tradition. Discover Iron’s Spells ’n Spellbooks and learn how scrolls work."]
+ task.05F69A7EE4CC34A3.title: "I read the Iron’s Spells guide and tested a scroll"
+ quest.EB9B0B292D281146.title: "The Price of Power"
+ quest.EB9B0B292D281146.quest_subtitle: "The Price of Power"
+ quest.EB9B0B292D281146.quest_desc: ["Magic does not replace preparation. Defeat eight skeletons and craft a shield for protection."]
+ quest.17006119C2843AB7.title: "The Red Gate"
+ quest.17006119C2843AB7.quest_subtitle: "The Red Gate"
+ quest.17006119C2843AB7.quest_desc: ["The world’s fragments point toward an infernal threshold. Build a portal and cross it."]
+ quest.549C24C76170831C.title: "Beyond the Veil"
+ quest.549C24C76170831C.quest_subtitle: "Beyond the Veil"
+ quest.549C24C76170831C.quest_desc: ["Explore the Nether and return alive. The ancient ruins beyond the portal demand equipment and caution."]
+ quest.EC8936761EAF0F50.title: "The Silent City"
+ quest.EC8936761EAF0F50.quest_subtitle: "The Silent City"
+ quest.EC8936761EAF0F50.quest_desc: ["Clue: seek the world’s oldest depths, where silence is more dangerous than monsters."]
+ quest.8979A4E0ADE6C60E.title: "The Stronghold"
+ quest.8979A4E0ADE6C60E.quest_subtitle: "The Stronghold"
+ quest.8979A4E0ADE6C60E.quest_desc: ["Clue: Eyes of Ender lead to a buried stronghold. Prepare before following them."]
+ quest.18FB7937412A23FB.title: "The Forgotten Sky"
+ quest.18FB7937412A23FB.quest_subtitle: "The Forgotten Sky"
+ quest.18FB7937412A23FB.quest_desc: ["Clue: a realm suspended above the clouds holds another part of the story. Reach the Aether."]
+ quest.A4AF4DC6FEBE84DD.title: "The Deep Echo"
+ quest.A4AF4DC6FEBE84DD.quest_subtitle: "The Deep Echo"
+ quest.A4AF4DC6FEBE84DD.quest_desc: ["Clue: sculk power hides a path into a world beyond the darkness. Enter the Otherside."]
+ quest.44FAFB0FB9D571FA.title: "The Hunter"
+ quest.44FAFB0FB9D571FA.quest_subtitle: "The Hunter"
+ quest.44FAFB0FB9D571FA.quest_desc: ["You followed at least one trail into the forgotten world. Prove you can face dangerous creatures: defeat ten Endermen."]
+ quest.EBF2E238ABC5202D.title: "Armor for the Ruins"
+ quest.EBF2E238ABC5202D.quest_subtitle: "Armor for the Ruins"
+ quest.EBF2E238ABC5202D.quest_desc: ["Prepare diamond armor before facing the guardians of the ruins."]
+ quest.6600C25426EB4651.title: "The Obsidian Guardian"
+ quest.6600C25426EB4651.quest_subtitle: "The Obsidian Guardian"
+ quest.6600C25426EB4651.quest_desc: ["Trial of courage: defeat a Cataclysm boss suitable for this stage of progression. Confirm only after victory."]
+ task.DCBBEC6D84B3461C.title: "I defeated a mid-tier Cataclysm boss"
+ quest.AC7C2579234166D2.title: "The Keeper of Seals"
+ quest.AC7C2579234166D2.quest_subtitle: "The Keeper of Seals"
+ quest.AC7C2579234166D2.quest_desc: ["Another ancient creature guards a secret. Defeat a Mowzie’s Mobs boss and confirm the trial."]
+ task.0BDF703EA261242C.title: "I defeated a Mowzie’s Mobs boss"
+ quest.4FDD2BAB5E78C345.title: "The Labyrinth Beast"
+ quest.4FDD2BAB5E78C345.quest_subtitle: "The Labyrinth Beast"
+ quest.4FDD2BAB5E78C345.quest_desc: ["Rare clue: seek the Ancient Portal or the Nexus among the great ruins of the forgotten world. Use the Explorer’s Compass, bring supplies and search different biomes. Complete an expedition in one of these structures or a major dungeon; confirm only when you return alive."]
+ task.D1D559720BCAA6F5.title: "I completed a major structure or dungeon and returned alive"
+ quest.CBE33F71A808807A.title: "Fires of the Nether"
+ quest.CBE33F71A808807A.quest_subtitle: "Fires of the Nether"
+ quest.CBE33F71A808807A.quest_desc: ["The Nether’s fire powers the next trials. Gather eight Blaze Rods and face their guardians."]
+ quest.5CC7EBD22D9BA716.title: "Echo Shards"
+ quest.5CC7EBD22D9BA716.quest_subtitle: "Echo Shards"
+ quest.5CC7EBD22D9BA716.quest_desc: ["Recover four Echo Shards from the deepest ruins. They will be needed for the final relic."]
+ quest.D125B6AB6394B9D7.title: "Heart of the Forge"
+ quest.D125B6AB6394B9D7.quest_subtitle: "Heart of the Forge"
+ quest.D125B6AB6394B9D7.quest_desc: ["Strengthen your equipment with Netherite. Do not face the final trial without proper protection."]
+ quest.D37C4BFFDD4FE5F8.title: "A Fallen Star"
+ quest.D37C4BFFDD4FE5F8.quest_subtitle: "A Fallen Star"
+ quest.D37C4BFFDD4FE5F8.quest_desc: ["The Wither guards a Nether Star. Prepare carefully and defeat it."]
+ quest.A855E307477C5D90.title: "The Ender Dragon"
+ quest.A855E307477C5D90.quest_subtitle: "The Ender Dragon"
+ quest.A855E307477C5D90.quest_desc: ["The final frontier of the known world is the End. Defeat the Dragon and return with proof of victory."]
+ quest.AC7076EFFE62DE87.title: "The Six Trials"
+ quest.AC7076EFFE62DE87.quest_subtitle: "The Six Trials"
+ quest.AC7076EFFE62DE87.quest_desc: ["You have overcome the great trials of magic and legendary creatures. Gather your relics and prepare for the world’s heart."]
+ task.9E684E967DA8E0EC.title: "I completed the milestones for arcane arts, legendary creatures and the ascent"
+ quest.D958EA74BE2E91F6.title: "Relics of the Past"
+ quest.D958EA74BE2E91F6.quest_subtitle: "Relics of the Past"
+ quest.D958EA74BE2E91F6.quest_desc: ["Gather eight diamonds and keep the Nether Star safe: they are the last components needed to open the final threshold."]
+ quest.DFAB0BFA009E14CD.title: "The Heart of the World"
+ quest.DFAB0BFA009E14CD.quest_subtitle: "The Heart of the World"
+ quest.DFAB0BFA009E14CD.quest_desc: ["Complete the final great expedition, face the last guardian of your journey and recover the Ender Dragon egg."]
+ task.79812B3B011A2CA4.title: "I completed the final expedition and defeated its guardian"
+ quest.35B7EC7FE35E0C0D.title: "Absolute Power"
+ quest.35B7EC7FE35E0C0D.quest_subtitle: "Absolute Power"
+ quest.35B7EC7FE35E0C0D.quest_desc: ["You have reached the end of your journey. Claim absolute power: the God Wand is your final reward. Use it responsibly."]
+ task.5A3993225B39CEC1.title: "I completed every trial and am ready to receive the God Wand"
+}
