@@ -1,18 +1,19 @@
 # Fantasy Realms — The Arcane Journey
 
-A guided fantasy-adventure modpack for **Minecraft 1.21.1** on **NeoForge 21.1.265**.
+A fantasy-RPG modpack for **Minecraft 1.21.1** on **NeoForge 21.1.265**.
 
-> Current status: source audit and design documentation are in the repository. The curated playable quest/configuration overlay and a tested standalone release are **not yet complete**.
+## 1.1.0 package
 
-## Design goals
+A clean Modrinth .mrpack has been prepared, including:
+- 48 Modrinth-indexed mod files and 7 additional bundled mod JARs;
+- six FTB Quests chapters with 31 quests, 39 tasks and 53 rewards;
+- Italian and English quest text;
+- God Wand recipe removal through KubeJS and a final-quest reward;
+- curated gameplay configuration, with all TEST-world and user-specific cache/settings data excluded.
 
-- Exploration-first fantasy adventure with rare structures, dungeons and meaningful discoveries.
-- Magic learned progressively through exploration and quest milestones.
-- Boss encounters and legendary rewards reserved for later progression.
-- God Wand as an endgame reward, not an early-game item.
-- A guided but non-linear story revealed through clues, ruins and major encounters.
+The package passes archive integrity and static SNBT/config validation. It has not been tested by launching Minecraft in a fresh world.
 
-## Story chapters
+## Story
 
 1. **Il Risveglio**
 2. **Le arti arcane**
@@ -21,16 +22,17 @@ A guided fantasy-adventure modpack for **Minecraft 1.21.1** on **NeoForge 21.1.2
 5. **L'ascesa**
 6. **Il potere assoluto**
 
-These are the agreed chapter concepts; the complete six-chapter FTB Quests files have not yet been published.
+## Key documents
 
-## Source pack
+- docs/MODLIST.md — source mod inventory.
+- docs/DEPENDENCIES.md — static dependency metadata check.
+- docs/SOURCE_EXPORT_AUDIT.md — audit of the uploaded source profile.
+- docs/FTB_QUESTS.md — implemented quest campaign and caveats.
+- docs/STRUCTURE_GENERATION.md — spawn settings and rare exploration targets.
+- docs/VALIDATION.md — what has and has not been tested.
+- docs/INSTALL.md — import instructions.
 
-The inspected source export contains 48 Modrinth-indexed mod files plus 7 additional JARs in `overrides/mods` (55 total), targeting Minecraft 1.21.1 and NeoForge 21.1.265.
+## Known limitations
 
-See `docs/MODLIST.md`, `docs/DEPENDENCIES.md`, `docs/SOURCE_EXPORT_AUDIT.md`, `docs/PROGRESSION.md` and `docs/FTB_QUESTS.md`.
-
-## Release status
-
-The uploaded export records a successful session entering the existing `TEST` world, but its log contains registry, missing-content and animation errors. A clean fresh-world compatibility pass has not been completed.
-
-No final `.mrpack` or installable quest overlay is published yet. The local test world, Xaero map cache, launcher/session caches and personal files are deliberately excluded from this public repository.
+- The Ice and Fire 1.21.1 NeoForge port remains beta and is not bundled; dragons are not enabled in this release.
+- The source log contains optional registry and GeckoLib animation errors. A fresh-world runtime test remains outstanding.
