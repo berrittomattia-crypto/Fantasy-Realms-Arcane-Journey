@@ -31,7 +31,7 @@ See `docs/MODLIST.md` for the exact indexed mod list and `docs/PROGRESSION.md` f
 
 ## Installation and release status
 
-A tested `.mrpack` release has **not** been published from this repository yet. The source export contained a local test world and session-specific files; those are deliberately excluded from this public repository.
+The uploaded source export does have a recorded successful session in the existing `TEST` world, but its log also contains repeated content/registry and animation errors. A clean fresh-world compatibility pass has **not** been completed, and a tested `.mrpack` release has **not** been published from this repository. The local `TEST` world and session-specific files are deliberately excluded from this public repository.
 
 ## Repository layout
 
